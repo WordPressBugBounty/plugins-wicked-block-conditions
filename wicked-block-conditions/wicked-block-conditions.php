@@ -4,7 +4,7 @@
 Plugin Name: Wicked Block Conditions
 Plugin URI: https://wickedplugins.com/wicked-block-conditions/
 Description: Show or hide blocks based on conditions.
-Version: 1.2.2
+Version: 1.2.4
 Author: Wicked Plugins
 Author URI: https://wickedplugins.com/
 Text Domain: wicked-block-conditions

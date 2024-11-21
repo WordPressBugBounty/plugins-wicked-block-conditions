@@ -279,7 +279,7 @@ class Token implements \JsonSerializable {
 		}
 	}
 
-	public function jsonSerialize() {
+	public function jsonSerialize(): array {
 		return array(
 			'name' 			=> $this->name,
 			'key' 			=> $this->key,

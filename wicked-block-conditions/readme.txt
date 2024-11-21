@@ -1,10 +1,10 @@
 === Wicked Block Conditions ===
 Contributors: wickedplugins
-Tags: blocks, block editor, conditions, conditional logic, gutenberg, administration, conditional blocks
+Tags: block visibility, conditions, conditional blocks, blocks
 Requires at least: 5.0
-Tested up to: 6.3
-Stable tag: 1.2.2
-Requires PHP: 5.6
+Tested up to: 6.7
+Stable tag: 1.2.4
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,14 @@ Yes and no.  The conditions are not deleted and will still be there if you re-ac
 4. Every condition can be assigned a custom label.  You can also negate conditions.  Each condition has its own configuration settings.
 
 == Changelog ==
+
+= 1.2.4 (November 20, 2024) =
+* Tweak: clean up plugin to exclude configuration and source files
+* Tweak: increase PHP required version to 7.4
+
+= 1.2.3 (November 20, 2024) =
+* Fix: PHP warning caused by missing function return type
+* Tweak: update tested-up-to flag to 6.7
 
 = 1.2.2 (August 22, 2023) =
 * Fix: missing lodash dependency preventing conditions panel from appearing when using Gutenberg plugin
